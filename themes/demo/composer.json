@@ -1,19 +1,14 @@
 {
-    "name": "october/demo-theme",
-    "type": "october-theme",
-    "description": "Demo OctoberCMS theme",
-    "keywords": ["october", "cms", "demo", "theme"],
+    "name": "ppoint/main-theme",
+    "type": "ppoint-theme",
+    "description": "Ppoint Main Theme",
+    "keywords": ["ppoint", "cms", "theme"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
-            "email": "aleksey.bobkov@gmail.com",
-            "role": "Co-founder"
-        },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com",
-            "role": "Co-founder"
+            "name": "Goran Raovic",
+            "email": "goran.raovic@gmail.com",
+            "role": "Author"
         }
     ],
     "require": {
