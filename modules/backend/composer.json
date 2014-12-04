@@ -1,18 +1,14 @@
 {
     "name": "october/backend",
     "type": "october-module",
-    "description": "Backend module for October CMS",
-    "homepage": "http://octobercms.com",
-    "keywords": ["october cms", "october", "backend"],
+    "description": "Admin modul za ppoint CMS",
+    "homepage": "http://ppoint.com",
+    "keywords": ["ppoint CMS", "admin"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
-            "email": "aleksey.bobkov@gmail.com"
-        },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com"
+            "name": "Goran Raovic",
+            "email": "goran.raovic@gmail.com"
         }
     ],
     "require": {
