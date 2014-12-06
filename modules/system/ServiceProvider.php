@@ -274,15 +274,15 @@ class ServiceProvider extends ModuleServiceProvider
                     'permissions' => ['backend.manage_users'],
                     'order'       => 600
                 ],
-                'updates' => [
-                    'label'       => 'system::lang.updates.menu_label',
-                    'description' => 'system::lang.updates.menu_description',
-                    'category'    => SettingsManager::CATEGORY_SYSTEM,
-                    'icon'        => 'icon-cloud-download',
-                    'url'         => Backend::url('system/updates'),
-                    'permissions' => ['system.manage_updates'],
-                    'order'       => 700
-                ],
+                // 'updates' => [
+                //     'label'       => 'system::lang.updates.menu_label',
+                //     'description' => 'system::lang.updates.menu_description',
+                //     'category'    => SettingsManager::CATEGORY_SYSTEM,
+                //     'icon'        => 'icon-cloud-download',
+                //     'url'         => Backend::url('system/updates'),
+                //     'permissions' => ['system.manage_updates'],
+                //     'order'       => 700
+                // ],
                 'event_logs' => [
                     'label'       => 'system::lang.event_log.menu_label',
                     'description' => 'system::lang.event_log.menu_description',
