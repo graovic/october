@@ -5,6 +5,7 @@ use Event;
 use Backend;
 use BackendMenu;
 use BackendAuth;
+use Auth;
 use Backend\Classes\WidgetManager;
 use October\Rain\Support\ModuleServiceProvider;
 use System\Classes\SettingsManager;
@@ -154,6 +155,12 @@ class ServiceProvider extends ModuleServiceProvider
             return [
                 'cms-page' => 'CMS Page'
             ];
+        });
+
+        Event::listen('pages.changed', function ($theme, $user) {
+            $myfile = fopen('testfile.txt', 'w');
+            fwrite($myfile, $theme.' ' . $user);
+            fclose($myfile);
         });
 
         Event::listen('pages.menuitem.getTypeInfo', function ($type) {

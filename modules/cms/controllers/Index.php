@@ -137,9 +137,11 @@ class Index extends Controller
 
     public function onSave()
     {
+
         $this->validateRequestTheme();
         $type = Request::input('templateType');
         $templatePath = trim(Request::input('templatePath'));
+        Event::fire('pages.changed',[$templatePath, $this->user->login]);
         $template = $templatePath ? $this->loadTemplate($type, $templatePath) : $this->createTemplate($type);
 
         $settings = Request::input('settings') ?: [];

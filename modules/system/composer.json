@@ -7,12 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
+            "name": "Goran Raovic",
             "email": "aleksey.bobkov@gmail.com"
-        },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com"
         }
     ],
     "require": {
