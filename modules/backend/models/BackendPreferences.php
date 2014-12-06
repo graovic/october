@@ -53,6 +53,7 @@ class BackendPreferences extends Model
             'ru' => [Lang::get('system::lang.locale.ru'), 'flag-ru'],
             'se' => [Lang::get('system::lang.locale.se'), 'flag-se'],
             'tr' => [Lang::get('system::lang.locale.tr'), 'flag-tr'],
+            'sr' => [Lang::get('system::lang.locale.sr'), 'flag-rs'],
         ];
 
         // Sort locales alphabetically

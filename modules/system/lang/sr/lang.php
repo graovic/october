@@ -2,8 +2,8 @@
 
 return [
     'app' => [
-        'name' => 'October CMS',
-        'tagline' => 'Getting back to basics',
+        'name' => 'Ppoint CMS',
+        'tagline' => 'uzzpro custom cms',
     ],
     'locale' => [
         'en' => 'English',
